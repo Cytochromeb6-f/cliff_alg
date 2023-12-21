@@ -1,6 +1,6 @@
 # cliffalg
 
-## Multivector data type for python 3
+## Multivector data type for python 3.8
 
 Contains a class for real Clifford algebras with arbitrary basis vectors and another class for multivectors in a specified Clifford algebra.
 
