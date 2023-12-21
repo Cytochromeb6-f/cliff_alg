@@ -38,12 +38,14 @@ where the coefficients are real numbers. The first term is called the scalar par
 
 The Clifford product of two multivectors is easily calculated using the signatures and the anti-commutation rule. As an example, let $\boldsymbol{A} = \boldsymbol{e_{1}}+\boldsymbol{e_{2}}$, $\boldsymbol{B} = \boldsymbol{e_{1}}+\boldsymbol{e_{2}}+\boldsymbol{e_{3}}$ be elements of $\mathcal{Cl}_{3,\,0}(\mathbb{R})$. Then
 
-$$\begin{aligned}\boldsymbol{AB}
-&= (\boldsymbol{e_{1}} + \boldsymbol{e_{2}})(\boldsymbol{e_{1}} + \boldsymbol{e_{2}} + \boldsymbol{e_{3}}) 
-= \boldsymbol{e_{1}e_{1}} + \boldsymbol{e_{1}e_{2}} + \boldsymbol{e_{1}e_{3}} + \boldsymbol{e_{2}e_{1}} + \boldsymbol{e_{2}e_{2}} + \boldsymbol{e_{2}e_{3}} \\
+$$
+\begin{aligned}\boldsymbol{AB} &= (\boldsymbol{e_{1}} + \boldsymbol{e_{2}})(\boldsymbol{e_{1}} + \boldsymbol{e_{2}} + \boldsymbol{e_{3}}) \\
+&= \boldsymbol{e_{1}e_{1}} + \boldsymbol{e_{1}e_{2}} + \boldsymbol{e_{1}e_{3}} + \boldsymbol{e_{2}e_{1}} + \boldsymbol{e_{2}e_{2}} + \boldsymbol{e_{2}e_{3}} \\
 &= 1 + \boldsymbol{e_{1}e_{2}} - \boldsymbol{e_{3}e_{1}} - \boldsymbol{e_{1}e_{2}} + 1 + \boldsymbol{e_{2}e_{3}} \\
 &= 2 + \boldsymbol{e_{2}e_{3}} - \boldsymbol{e_{3}e_{1}}
-\end{aligned}$$
+\end{aligned}
+$$
+
 and we can see that the scalar part, 2, is the regular dot product of $\boldsymbol{A}$ and $\boldsymbol{B}$. The bivector part $(\boldsymbol{e_{2}e_{3}} - \boldsymbol{e_{3}e_{1}})$, is actually the cross product of $\boldsymbol{A}$ and $\boldsymbol{B}$, expressed as a plane of rotation.
 
 More info:
