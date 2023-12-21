@@ -24,7 +24,7 @@ The names for the basis blades in an algebra are generated with its constituent 
 
 ## Basic theory
 
-A multivector is any element in a Clifford algebra. A Clifford algebra may be constructed from a vector space $V = \text{span}\left\{\boldsymbol{e_{1}},\boldsymbol{e_{2}},\dots,\boldsymbol{e_{n}}\right\}$ by assigning a number to each basis vector $\boldsymbol{e_{i}}$, called its signature. The Clifford product is then defined such that the product of a basis vector with itself is its signature.
+A multivector is any element in a Clifford algebra. A Clifford algebra may be constructed from a vector space $V = \text{span}\left\lbrace\boldsymbol{e_{1}},\boldsymbol{e_{2}},\dots,\boldsymbol{e_{n}}\right\rbrace$ by assigning a number to each basis vector $\boldsymbol{e_{i}}$, called its signature. The Clifford product is then defined such that the product of a basis vector with itself is its signature.
 
 The commonly studied Clifford ALgebras only have $1$ or $-1$ as signatures. They are usually written $\mathcal{Cl}_{p,n}(\mathbb{F})$, where $p$ is the number of basis vectors with signature $1$, $n$ is the number with signature $-1$ and $\mathbb{F}$ is the field over which the vector space spans.
 
