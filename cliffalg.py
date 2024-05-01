@@ -124,7 +124,7 @@ class Multivector():
         (#) A dictionary with names of basis blades as keys and components as values.
             Unspecified components are assumed to be 0.
             
-        (#) An int of float ('real scalar'). This results in a scalar in the algebra.
+        (#) An int or float ('real scalar'). This results in a scalar in the algebra.
             
             E.g. all the following constructs gives a zero in an algebra called alg:
             
